@@ -1,0 +1,23 @@
+{
+  "name": "superline",
+  "version": "1.0.0",
+  "description": "readline with promised superpowers :+1:",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shes/superline.git"
+  },
+  "keywords": [
+    "readline",
+    "promise"
+  ],
+  "author": "andrea@parro.it",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shes/superline/issues"
+  },
+  "homepage": "https://github.com/shes/superline"
+}
