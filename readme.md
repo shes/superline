@@ -13,34 +13,14 @@ $ npm install superline --save
 
   superline is supported in all versions of [iojs](https://iojs.org) without any flags.
 
-  To use superline with node, you must be running __node > 0.11.16__ or __node > 0.12.0__ for generator and promise support, and must run node with the --harmony-generators or --harmony flag.
+  To use superline with node, you must be running __node > 0.11.16__ or __node > 0.12.0__ for generator and promise support, and must run node with the --harmony flag.
 
 ## Getting started
-
-See all example in example folder to get started. 
-Open an issue if you have any question or suggestion.
 
 ## Example
 
 ```js
 var superline = require('superline');
-var mws = new superline();
-
-mws.use(function *(next){
-    this.result += ' hello';
-    yield next();
-});
-
-mws.use(function *(next){
-    this.result += ' world';
-    yield next();
-});
-
-var ctx = {result:'yet another'};
-
-mws.run(ctx).then(function(){
-  //ctx.result === 'yet another hello world'
-});
 
 ```
 
