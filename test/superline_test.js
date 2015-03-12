@@ -1,6 +1,6 @@
 'use strict';
 
-import superline from '../lib/superline';
+import superline from '../src';
 import concat from 'concat-stream';
 import { PassThrough} from 'stream';
 

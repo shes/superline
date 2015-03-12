@@ -25,6 +25,7 @@
   "homepage": "https://github.com/shes/superline",
 
   "devDependencies": {
+    "concat-stream": "^1.4.7",
     "babel": "^4.6.4",
     "chai": "^2.1.0",
     "co": "^4.0.0",
