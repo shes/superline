@@ -6,6 +6,10 @@ import MuteStream from 'mute-stream';
 import { EventEmitter } from 'events';
 const EMPTY_COMMAND = /^\s*$/;
 
+/**
+ * SuperLine class
+ * @classdesc SuperLine
+ */
 export class SuperLiner extends EventEmitter {
     constructor(options) {
         Object.assign(this, options);
@@ -120,6 +124,11 @@ export class SuperLiner extends EventEmitter {
     }
 }
 
+/**
+ * return a new instance of SuperLine
+ * @param  {Object} options options for new instance. See [options](options.doc)
+ * @return {SuperLine}         new instance
+ */
 export default function superliner(options) {
     options.stdin = options.stdin || process.stdin;
     options.stdout = options.stdout || process.stdout;
