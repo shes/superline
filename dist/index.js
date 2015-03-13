@@ -40,7 +40,7 @@ var SuperLiner = exports.SuperLiner = (function (_EventEmitter) {
 
             completer: function completer(line, callback) {
 
-                this.getSuggestions(line).then(function (ctx) {
+                options.getSuggestions(line).then(function (ctx) {
                     return callback(null, [ctx.suggestions, ctx.line]);
                 });
             }

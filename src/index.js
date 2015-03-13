@@ -21,7 +21,7 @@ export class SuperLiner extends EventEmitter {
 
             completer (line, callback) {
 
-                this.getSuggestions(line).then((ctx) =>
+                options.getSuggestions(line).then((ctx) =>
                     callback(null, [ctx.suggestions, ctx.line])
                 );
 
