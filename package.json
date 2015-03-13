@@ -1,6 +1,6 @@
 {
   "name": "superline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "readline with promised superpowers :+1:",
   "main": "dist/index.js",
   "scripts": {
