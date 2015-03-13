@@ -1,8 +1,8 @@
 {
   "name": "superline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "readline with promised superpowers :+1:",
-    "main": "dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha test/*_test.js test/**/*_test.js --require ./test/init || echo failed",
     "test-shippable": "mkdir -p ./shippable/testresults && istanbul cover --dir ./shippable/codecoverage --report cobertura _mocha -- test/*_test.js test/**/*_test.js --require ./test/init --reporter \"xunit\" > ./shippable/testresults/mocha.xml",
@@ -23,7 +23,6 @@
     "url": "https://github.com/shes/superline/issues"
   },
   "homepage": "https://github.com/shes/superline",
-
   "devDependencies": {
     "concat-stream": "^1.4.7",
     "babel": "^4.6.4",
